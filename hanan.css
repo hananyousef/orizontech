@@ -1,0 +1,161 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  ul{
+    list-style-type: none;
+    padding-left: 5%;
+    position: relative;
+    left: 0em;
+  }
+  
+  .side {
+  
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f7fbff;
+    position: fixed;
+    left: 0%;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .picture{
+    opacity: 100%;
+  }
+  li a {
+    display: block;
+    color: #000;
+    padding: 12px 8px;
+    text-decoration: none;
+    opacity: 60%;
+  }
+  
+  .girls:hover:not(.active) {
+
+    color: #440bfd;
+    cursor: pointer;
+
+  }
+  
+  li a:hover:not(.active) {
+
+    color: #440bfd;
+
+  }
+  #girl{
+    position: relative;
+    left:35%;
+  }
+  #name{
+    text-align: center;
+  }
+  em{
+    opacity: 50%;
+    font-style: normal;
+  }
+  header, .hana {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding: 10px 30px;
+  }
+
+
+  .cards_wrap{
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	
+}
+
+.cards_wrap .card_item{
+	padding: 15px 25px;
+	width: 25%;
+}
+
+.cards_wrap .card_inner{
+	background: #fff;
+    border: #000;
+	border-radius: 5px;
+	padding: 35px 20px;
+	min-width: 225px;
+	min-height: 200px;
+	height: 40px;
+	
+}
+
+.cards_wrap .card_item img{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 5px;
+}
+
+.cards_wrap .card_item .role_name{
+	color: #e36686;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards_wrap .card_item .real_name{
+	color: #b6c0c2;
+	font-size: 12px;
+	font-weight: 100;
+	margin: 5px 0 10px;
+}
+
+.cards_wrap .card_item .film{
+	font-size: 14px;
+	line-height: 24px;
+	color: #0b0d0e;
+}
+
+.gif{
+  position: absolute;left: 22.5em;top: 31em;
+}
+.picture:hover{
+  color: #6D5F9A;
+}
+
+button{
+  color: #fff;
+  background-color: #440bfd;
+  border-radius: 10%;
+  border: #440bfd;
+  width: 8em;
+  height: 2em;
+}
+
+#myChart{
+  width: 50em;
+}
+
+.girls{
+  display: flex;
+  align-items:center;
+
+}
+#users{
+  padding: 10px 16px;
+}
+#envelope{
+  position: relative;
+  top: 5px;
+  left: 50px;
+}
+input{
+  width: 20em;
+  height: 2.3em;
+  padding: 10 10;
+}
+
+
+
+
